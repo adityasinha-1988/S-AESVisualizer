@@ -1,0 +1,5 @@
+{
+  "name": "S-AES Visualizer",
+  "description": "An interactive, step-by-step educational tool for Simplified AES encryption, featuring AI-powered explanations and real-time visualization.",
+  "requestFramePermissions": []
+}
