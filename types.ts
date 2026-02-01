@@ -21,11 +21,11 @@ export enum SAESStep {
 
   // Decryption
   DEC_INITIAL_ADD_ROUND_KEY = 'Add Round Key 2',
-  DEC_ROUND_1_SHIFT_ROW = 'Round 1: Shift Row',
+  DEC_ROUND_1_SHIFT_ROW = 'Round 1: Shift Row (Inv)',
   DEC_ROUND_1_INV_SUB_NIBBLES = 'Round 1: Inv Sub Nibbles',
-  DEC_ROUND_1_ADD_ROUND_KEY = 'Round 1: Add Round Key 1',
+  DEC_ROUND_1_ADD_ROUND_KEY = 'Round 1: Add Round Key 1 (Dec)',
   DEC_ROUND_1_INV_MIX_COLUMNS = 'Round 1: Inv Mix Columns',
-  DEC_ROUND_2_SHIFT_ROW = 'Round 2: Shift Row',
+  DEC_ROUND_2_SHIFT_ROW = 'Round 2: Shift Row (Inv)',
   DEC_ROUND_2_INV_SUB_NIBBLES = 'Round 2: Inv Sub Nibbles',
   DEC_ROUND_2_ADD_ROUND_KEY = 'Round 2: Add Round Key 0'
 }

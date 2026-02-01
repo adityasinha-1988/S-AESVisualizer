@@ -78,7 +78,7 @@ export const AddRoundKeyVisualizer: React.FC<AddRoundKeyVisualizerProps> = ({ in
         <Equal className="text-slate-600" size={24} />
 
         <div className="flex flex-col items-center gap-2">
-           <StateMatrix matrix={outputMatrix} label="New State" color="emerald" highlight={true} />
+           <StateMatrix matrix={outputMatrix} label="New State" color="green" highlight={true} />
         </div>
       </div>
 
